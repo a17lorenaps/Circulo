@@ -2,11 +2,18 @@ package circulo;
 
 import java.text.DecimalFormat;
 
-/*
+/**
  * Clase Main para facer probas en NetBeans coa 
  * clase Circulo
+ * @author uadmin
  */
+
 public class Main {
+
+    /**
+     * Método main que da inicio a aplicación
+     * @param args
+     */
     public static void main(String[] args) {
         Circulo circulo = new Circulo(37,43,2.5);
         String saida =
